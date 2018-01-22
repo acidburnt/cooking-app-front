@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "react/no-did-mount-set-state": 0,
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [
+          ""
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+.Navigation {
+  background-color: #333;
+  color: #eee;
+  display: flex;
+  justify-content: space-around;
+    &__list {
+    display: flex;
+    list-style-type: none;
+    } 
+    &__list-item {
+    padding: 8px;
+    }
+    & a:link, a:active, a:visited {
+      text-decoration: none;
+      color: inherit;
+    }
+}
